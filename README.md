@@ -19,3 +19,7 @@ This project will culminate in a desktop alarm clock that operates a peristaltic
 * Power supply (wall wart, barrel jack, 12 V)
 
 I'm primarily using Adafruit parts---their pricing is decent and their website is helpful, so I like to support them. You can easily find the same (or similar) parts elsewhere (e.g., [SparkFun](https://www.sparkfun.com/) or [Digi-Key](http://www.digikey.com/)).
+
+**Required libraries:**
+* [Adafruit RGB LCD Shield Library](https://github.com/adafruit/Adafruit-RGB-LCD-Shield-Library)
+* [Adafruit RTClib](https://github.com/adafruit/RTClib)
