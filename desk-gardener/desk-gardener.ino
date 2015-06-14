@@ -46,7 +46,7 @@ void loop() {
     }
     
     if (buttons & BUTTON_LEFT) {
-      lcdcolor = (lcdcolor - 1) % 8;
+      lcdcolor = lcdcolor ? lcdcolor - 1 : 7;
       lcd.setBacklight(lcdcolor);
       lcd.clear();
     }
