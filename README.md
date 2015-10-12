@@ -1,6 +1,28 @@
 # arduino
 A collection of open-source Arduino projects.
 
+## wifi-gardener
+Collects data from the Internet (including the time and weather events) and operates a solenoid to water your garden.
+
+**Feature status:**
+* Wifi connectivity: working
+* NTP client: working (with issues)
+* Weather: unimplemented
+* Manual watering: unimplemented
+* Automatic watering: unimplemented
+
+**Parts list:**
+* Adafruit Huzzah ESP8266 module
+* Adafruit 7-segment LCD module
+* Solenoid valve (12 V)
+* TIP120 transistor & 1N4001 diode (considering upgrade to MOSFET)
+* (2) ~10k Ω resistors
+* Button
+* Barrel adapter
+* Prototyping perforated board
+
+More information on this project as it becomes more mature.
+
 ## desk-gardener
 This project will culminate in a desktop alarm clock that operates a peristaltic pump to water your plant.
 
